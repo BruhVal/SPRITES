@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CHESTOPEN.unity
+- path: Assets/Scenes/KNIGHT.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

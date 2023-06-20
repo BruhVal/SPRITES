@@ -16,6 +16,8 @@ public class playermovement : MonoBehaviour
     //Variable For our rigitbody2d
     public Rigidbody2D rigidBody;
 
+    public Animator anim;
+
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +28,20 @@ public class playermovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            anim.SetTrigger("KnightForward");
+        }
 
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            anim.SetTrigger("KnightBackward");
+        }
     }
 
     //Handles physics
