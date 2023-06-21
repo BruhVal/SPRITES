@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -30,6 +30,7 @@ public class playermovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
+            anim.enabled = true;
             anim.SetTrigger("KnightForward");
         }
 
@@ -40,7 +41,33 @@ public class playermovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W))
         {
+            anim.enabled = true;
             anim.SetTrigger("KnightBackward");
+        }
+
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            anim.enabled = true;
+            anim.SetTrigger("KnightLeft");
+        }
+
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            anim.enabled = true;
+            anim.SetTrigger("KnightRight");
+        }
+
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+
         }
     }
 
