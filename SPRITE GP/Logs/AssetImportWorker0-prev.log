@@ -1,580 +1,108 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'en' Physical Memory: 16309 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+D:\Program Files\Unity Hub\2021.3.26f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/STUDENT/Documents/GitHub/SpritesGP/SPRITE GP
+D:/Downloads/SPRITE GP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50144
-Successfully changed project path to: C:/Users/STUDENT/Documents/GitHub/SpritesGP/SPRITE GP
-C:/Users/STUDENT/Documents/GitHub/SpritesGP/SPRITE GP
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.21 ms, found 3 plugins.
+53660
+Successfully changed project path to: D:/Downloads/SPRITE GP
+D:/Downloads/SPRITE GP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13024] Host "[IP] 192.168.0.120 [Port] 0 [Flags] 2 [Guid] 223765342 [EditorId] 223765342 [Version] 1048832 [Id] WindowsEditor(7,Autist) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13024] Host "[IP] 192.168.0.120 [Port] 0 [Flags] 2 [Guid] 223765342 [EditorId] 223765342 [Version] 1048832 [Id] WindowsEditor(7,Autist) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 201.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/STUDENT/Documents/GitHub/SpritesGP/SPRITE GP/Assets
-GfxDevice: creating device client; threaded=0
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Downloads/SPRITE GP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
-    Vendor:   
-    VRAM:     3962 MB
-    Driver:   31.0.15.1694
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3640
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Mono path[0] = 'D:/Program Files/Unity Hub/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity Hub/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001677 seconds.
+Register platform support module: D:/Program Files/Unity Hub/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.137685 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 53.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.418 seconds
+- Completed reload, in  5.233 seconds
 Domain Reload Profiling:
-	ReloadAssembly (418ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (5234ms)
+		BeginReloadAssembly (3765ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (319ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (972ms)
+			LoadAssemblies (3764ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (634ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (134ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (53ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003705 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\STUDENT\Documents\GitHub\SpritesGP\SPRITE GP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\STUDENT\Documents\GitHub\SpritesGP\SPRITE GP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.704 seconds
-Domain Reload Profiling:
-	ReloadAssembly (704ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (572ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (235ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 109.6 MB.
-System memory in use after: 109.8 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3572.
-Total: 2.182200 ms (FindLiveObjects: 0.226400 ms CreateObjectMapping: 0.068700 ms MarkObjects: 1.840900 ms  DeleteObjects: 0.045600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/SCRIPT/playermovement.cs
-  artifactKey: Guid(a0b7e315cbabb8e41a9578f0e78acfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SCRIPT/playermovement.cs using Guid(a0b7e315cbabb8e41a9578f0e78acfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7784f27c38f00dad4355ec7565453a8c') in 0.015876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 125.530328 seconds.
-  path: Assets/SPRITE/CoinAniamtion.png
-  artifactKey: Guid(c8dc71e12724fd54c9bd330933efd8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SPRITE/CoinAniamtion.png using Guid(c8dc71e12724fd54c9bd330933efd8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c819447f8ce38d8e3a70d2f9bb7c16') in 0.105333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.264122 seconds.
-  path: Packages/com.unity.2d.tilemap
-  artifactKey: Guid(4e00cf00a7281e0d7ee16a9f76f3c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap using Guid(4e00cf00a7281e0d7ee16a9f76f3c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4db2989a23261ac4400a439f7f11f4') in 0.006203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.068426 seconds.
-  path: Packages/com.unity.2d.tilemap/package.json
-  artifactKey: Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/package.json using Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22520fb1654722663eb25abdaed23609') in 0.012390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.392067 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor
-  artifactKey: Guid(6b38a6882b80b1c4dbcca4bc844d7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor using Guid(6b38a6882b80b1c4dbcca4bc844d7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a86a957c7553844e34b7aa40e2bc819') in 0.006245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.075890 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef
-  artifactKey: Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef using Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86df9f85098986b5c3bc9f164a1f4748') in 0.007403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.005348 seconds.
-  path: Packages/com.unity.2d.tilemap.extras/package.json
-  artifactKey: Guid(a9f15b7c9363d9944a7d69248fd279ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap.extras/package.json using Guid(a9f15b7c9363d9944a7d69248fd279ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7276a4a1ce2a993d61464c0213957ebc') in 0.001798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.133256 seconds.
-  path: Packages/com.unity.2d.tilemap/Tests
-  artifactKey: Guid(2bfef0473016eee4fa9d9bd505a1edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Tests using Guid(2bfef0473016eee4fa9d9bd505a1edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5d461ee8361db620a6b13db96eec3c') in 0.006208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.693963 seconds.
-  path: Packages/com.unity.2d.tilemap/Tests/Editor
-  artifactKey: Guid(62324ebe9a53d9a43b04f4b0e9b961a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Tests/Editor using Guid(62324ebe9a53d9a43b04f4b0e9b961a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dec97b736565130290e99a4015fc5d') in 0.001625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.057367 seconds.
-  path: Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef
-  artifactKey: Guid(8ce1fc14411aade4b81c0e6dd86950be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef using Guid(8ce1fc14411aade4b81c0e6dd86950be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78213f6618c8e43caf81961ce867c44f') in 0.005901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.964714 seconds.
-  path: Assets/Dungeon Knight/spritesheets
-  artifactKey: Guid(d5670a69d3af6a54d90ffc5f9b186e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/spritesheets using Guid(d5670a69d3af6a54d90ffc5f9b186e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082596befbf23daf282c549db30e7739') in 0.007551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055045 seconds.
-  path: Assets/Dungeon Knight/spritesheets/chest.png
-  artifactKey: Guid(7bd805dcd8ce6774ea4949686f21b524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/spritesheets/chest.png using Guid(7bd805dcd8ce6774ea4949686f21b524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee93aab0929a60fb213573a7a1c26575') in 0.015648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Dungeon Knight/spritesheets/key.png
-  artifactKey: Guid(82748e60589e35d439c8ceb2b88ced8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/spritesheets/key.png using Guid(82748e60589e35d439c8ceb2b88ced8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62368da64998f2a6af29a77c34b4167d') in 0.008450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Dungeon Knight/spritesheets/gem.png
-  artifactKey: Guid(05ce5417c048bbb40bfaf2469ea56edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/spritesheets/gem.png using Guid(05ce5417c048bbb40bfaf2469ea56edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754b9e89ea6f63b8130f62493cfc3df6') in 0.007879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Dungeon Knight/spritesheets/slime_red.png
-  artifactKey: Guid(16025668a9739d84fabe27212c6fd409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/spritesheets/slime_red.png using Guid(16025668a9739d84fabe27212c6fd409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68013f5ffc67808784b6b8ab44648120') in 0.008000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Dungeon Knight/spritesheets/explode.png
-  artifactKey: Guid(f1b41a689e56571429904611fdc8d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/spritesheets/explode.png using Guid(f1b41a689e56571429904611fdc8d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b0155ff06e4df8b7287b66f5cc1d7c') in 0.008627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Dungeon Knight/spritesheets/slime.png
-  artifactKey: Guid(ddd1eaa56b5b0ac4aa8a1a6516733258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/spritesheets/slime.png using Guid(ddd1eaa56b5b0ac4aa8a1a6516733258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640149c108aec7891811f128f38b938a') in 0.008324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Dungeon Knight/spritesheets/wing_demon.png
-  artifactKey: Guid(48eb8bd7e511b1b4aa160e2a32d5978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/spritesheets/wing_demon.png using Guid(48eb8bd7e511b1b4aa160e2a32d5978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4047019c989a555c9815c2fb64762bfd') in 0.007770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Dungeon Knight/spritesheets/slime_blue.png
-  artifactKey: Guid(b6ae38d3b37d8c7449f201a566c41099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/spritesheets/slime_blue.png using Guid(b6ae38d3b37d8c7449f201a566c41099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc0c4fe0de6c611afabd660104db874') in 0.008700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Dungeon Knight/spritesheets/knight_anims.png
-  artifactKey: Guid(7781a737186224d4a8e58d26026af04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/spritesheets/knight_anims.png using Guid(7781a737186224d4a8e58d26026af04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed67519cebb5b5eb8e3864b45f5e037') in 0.063732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.990242 seconds.
-  path: Assets/Dungeon Knight/items/chest.png
-  artifactKey: Guid(2236dad284e169443962c42f32e84c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/items/chest.png using Guid(2236dad284e169443962c42f32e84c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a971b16a43d58a6ba2457197ca571c') in 0.007965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Dungeon Knight/items/key.png
-  artifactKey: Guid(9002271553bf44c4895f893cdb7b06d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/items/key.png using Guid(9002271553bf44c4895f893cdb7b06d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe7d82b7c0462e654afe23d2ca0e6fa') in 0.004321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Dungeon Knight/items/gem.png
-  artifactKey: Guid(4782feb4d93e8e24e8bf4b7a50372298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/items/gem.png using Guid(4782feb4d93e8e24e8bf4b7a50372298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e39dfa5b53cb2b4773b42bab3d78241') in 0.003759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.502751 seconds.
-  path: Assets/Dungeon Knight/tile/lava.png
-  artifactKey: Guid(7061d9db00178df4fbe7908ea1775aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/lava.png using Guid(7061d9db00178df4fbe7908ea1775aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf6e82c127446829a978514b2ab66e9') in 0.018083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Dungeon Knight/tile/wall_1piece.png
-  artifactKey: Guid(d56d34ae5f0e6504db3b090d7d094a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/wall_1piece.png using Guid(d56d34ae5f0e6504db3b090d7d094a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3c8c29e66fae593fc9dd0cd188200b') in 0.009594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Dungeon Knight/tile/wall_main.png
-  artifactKey: Guid(8f1d37802c6e80a48a5b59a0152ad3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/wall_main.png using Guid(8f1d37802c6e80a48a5b59a0152ad3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527310c7a4c79b376e293f4c16b8139c') in 0.008204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Dungeon Knight/tile/stone_tile.png
-  artifactKey: Guid(21ab124d6d4f8ef4fac18029019dc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/stone_tile.png using Guid(21ab124d6d4f8ef4fac18029019dc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40126342199e2c693ff94c6589c9647b') in 0.008009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Dungeon Knight/tile/lowtile.png
-  artifactKey: Guid(b4b052fd847743c4b87786c93d193cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/lowtile.png using Guid(b4b052fd847743c4b87786c93d193cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b19ceb96edce2c771f1272090b2d38') in 0.008485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 107.726921 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f00199c01e1fe13d86711859207c65e') in 0.029821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.498369 seconds.
-  path: Assets/Dungeon Knight/tile/lava.png
-  artifactKey: Guid(7061d9db00178df4fbe7908ea1775aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/lava.png using Guid(7061d9db00178df4fbe7908ea1775aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21d7dbbb1ea7f7b210552c8ad0c4caf') in 0.008289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 89.496127 seconds.
-  path: Assets/Dungeon Knight/tile/lava.png
-  artifactKey: Guid(7061d9db00178df4fbe7908ea1775aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/lava.png using Guid(7061d9db00178df4fbe7908ea1775aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4869b97d88a61b3ac1c9a2de83110ecf') in 0.015169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.535621 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0ba72ad9bc1a0b518796d45b67faa3') in 0.010216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Dungeon Knight/tile/lava.asset
-  artifactKey: Guid(c392a9470ac0eb34d8f1690499a5a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/lava.asset using Guid(c392a9470ac0eb34d8f1690499a5a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81a28532d44a751054143d3ae43d2d2') in 0.012804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 145.229435 seconds.
-  path: Assets/Dungeon Knight/tile/2.asset
-  artifactKey: Guid(2103aab6fee69134e8e1f0fcd4c9a44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/2.asset using Guid(2103aab6fee69134e8e1f0fcd4c9a44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945dc470304cc17118db7e17bd299696') in 0.010431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5582d49060b5fde3db91a582bf279861') in 0.026192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.056874 seconds.
-  path: Assets/Dungeon Knight/tile/3.asset
-  artifactKey: Guid(fb759c8d00bec1249806e2f2a96590a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/3.asset using Guid(fb759c8d00bec1249806e2f2a96590a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5154961eebb23b112bd03eeb53788ef4') in 0.009524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a28bb5d4aed5b16b9d00926b9b6215') in 0.006082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.564730 seconds.
-  path: Assets/Dungeon Knight/tile/4.asset
-  artifactKey: Guid(520894ed51370e84ca31c27c38e76861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/4.asset using Guid(520894ed51370e84ca31c27c38e76861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e48f35337cd16f72193bda7e948907') in 0.009721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cab5f3fe193781b5a147885245c7a36') in 0.006110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.665875 seconds.
-  path: Assets/Dungeon Knight/tile/5.asset
-  artifactKey: Guid(e22def6a52dda8c4a9ab2cd849b5bd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/5.asset using Guid(e22def6a52dda8c4a9ab2cd849b5bd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f294de95c01655c5fd3a193f84595f34') in 0.010861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77519d094a367722c0265317f2676ae5') in 0.006240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.356716 seconds.
-  path: Assets/Dungeon Knight/tile/6.asset
-  artifactKey: Guid(8e72a01c1c41e5848999a471402b98ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/6.asset using Guid(8e72a01c1c41e5848999a471402b98ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa375158ce13e3651a66e299cf416e92') in 0.008653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f091d51e61923df93a8adcafe1917c69') in 0.007681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.667448 seconds.
-  path: Assets/Dungeon Knight/tile/7.asset
-  artifactKey: Guid(09b9f42e86a0d8f4a866486ddfcd6032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/7.asset using Guid(09b9f42e86a0d8f4a866486ddfcd6032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7b2e7934620c127b93a3ade91bb25c') in 0.010813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14b5faacd90d5d7c12dc8d89cd7b360') in 0.011540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.473373 seconds.
-  path: Assets/Dungeon Knight/tile/8.asset
-  artifactKey: Guid(6572b5194fd086b44978832771bd3987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/8.asset using Guid(6572b5194fd086b44978832771bd3987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ed7f867823f49ada8444470f9a8d7d') in 0.011072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2629cf68a630a34450c1e36a8f1a357') in 0.011564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.289309 seconds.
-  path: Assets/Dungeon Knight/tile/9.asset
-  artifactKey: Guid(d710e0fb96b6cc74889b2b6bca1d7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/9.asset using Guid(d710e0fb96b6cc74889b2b6bca1d7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52f32020ad947d4bc1f6d39e95c5512') in 0.009383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e7c9a3964ec9bd1a31bd38debb782d') in 0.006877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.085740 seconds.
-  path: Assets/Dungeon Knight/tile/56.asset
-  artifactKey: Guid(5691a34a3cd751e4f94decc4ce0fb2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/56.asset using Guid(5691a34a3cd751e4f94decc4ce0fb2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe18684025ee9c18dc69cc992035662f') in 0.013417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c1340726feafca01aecde227dfa940') in 0.011058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.192609 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3910f8d7c9a9496943975413074ad70') in 0.014882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Dungeon Knight/tile/fadfafea.asset
-  artifactKey: Guid(793388a34c9cce94fb4716daba02d49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/fadfafea.asset using Guid(793388a34c9cce94fb4716daba02d49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf69ba5a55e6c7f42be87622374f8957') in 0.008754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.985117 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee064db50b7ad0fa9082f27466219af') in 0.013259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Dungeon Knight/tile/feafeafeaf.asset
-  artifactKey: Guid(b2b945cba053b7746b1bb31a257a816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/feafeafeaf.asset using Guid(b2b945cba053b7746b1bb31a257a816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7822e15510cb13c0c1378a10b9c9ab5f') in 0.019193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.842191 seconds.
-  path: Assets/Dungeon Knight/tile/Dungeon.prefab
-  artifactKey: Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Dungeon.prefab using Guid(5014038a8782de740872589bd899b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd191e52b54310ed7e75fd155e3278723') in 0.018893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Dungeon Knight/tile/feafeafeafe.asset
-  artifactKey: Guid(b59a035867d84e644992302a5dfb4024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/feafeafeafe.asset using Guid(b59a035867d84e644992302a5dfb4024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef2d54628ab1bb7d00e2c6792e327cf') in 0.016415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 81.265779 seconds.
-  path: Assets/Dungeon Knight/tile/lava.png
-  artifactKey: Guid(7061d9db00178df4fbe7908ea1775aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/lava.png using Guid(7061d9db00178df4fbe7908ea1775aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436dc43f47edef9a4f7fb194e6f4d362') in 0.012482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.736169 seconds.
-  path: Assets/Dungeon Knight/tile/Floor.prefab
-  artifactKey: Guid(e95660b91126da54f89a238865d91fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Floor.prefab using Guid(e95660b91126da54f89a238865d91fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3e062315f44deffa89a7fe3f6e1e2b') in 0.015462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.939958 seconds.
-  path: Assets/Dungeon Knight/tile/stone_tile.png
-  artifactKey: Guid(21ab124d6d4f8ef4fac18029019dc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/stone_tile.png using Guid(21ab124d6d4f8ef4fac18029019dc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecacb4eafe95720caf48eb7c304f8b9a') in 0.015173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.359103 seconds.
-  path: Assets/Dungeon Knight/tile/Floor.prefab
-  artifactKey: Guid(e95660b91126da54f89a238865d91fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Floor.prefab using Guid(e95660b91126da54f89a238865d91fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876dd009a75fdadcdddb53ebab221e13') in 0.009826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Dungeon Knight/tile/stone_tile.asset
-  artifactKey: Guid(d01f67ba6e399474e9dd8b6e3945fd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/stone_tile.asset using Guid(d01f67ba6e399474e9dd8b6e3945fd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569b7627a4c8ec606c30e879baf33c2d') in 0.008201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.885890 seconds.
-  path: Assets/Dungeon Knight/tile/stone_tile.png
-  artifactKey: Guid(21ab124d6d4f8ef4fac18029019dc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/stone_tile.png using Guid(21ab124d6d4f8ef4fac18029019dc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3000a8ee29dcb3963588cc65db220a83') in 0.005488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 91.289541 seconds.
-  path: Assets/Dungeon Knight/tile/Walls.prefab
-  artifactKey: Guid(153125b695447244697669520c8c759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Walls.prefab using Guid(153125b695447244697669520c8c759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49232024a11c934e8b49f4487874c72b') in 0.014072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 458.897067 seconds.
-  path: Assets/Dungeon Knight/tile/wall_main.png
-  artifactKey: Guid(8f1d37802c6e80a48a5b59a0152ad3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/wall_main.png using Guid(8f1d37802c6e80a48a5b59a0152ad3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b3027de6ee7787db496db1680af4a7') in 0.010490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.319939 seconds.
-  path: Assets/Dungeon Knight/tile/wall_main.asset
-  artifactKey: Guid(2154a5ff25e1af548a7c82bacce4c770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/wall_main.asset using Guid(2154a5ff25e1af548a7c82bacce4c770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea9f3889ab8c1beb5d604341335d60b') in 0.017839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Dungeon Knight/tile/Walls.prefab
-  artifactKey: Guid(153125b695447244697669520c8c759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/Walls.prefab using Guid(153125b695447244697669520c8c759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299ed2ed841b396a881867d8d4fb10f7') in 0.017308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 73.737857 seconds.
-  path: Assets/Dungeon Knight/tile/wall_main.png
-  artifactKey: Guid(8f1d37802c6e80a48a5b59a0152ad3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/tile/wall_main.png using Guid(8f1d37802c6e80a48a5b59a0152ad3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f860e422538f62d92b2f1cd247aa36') in 0.008877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 261.666154 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.005808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1607.257702 seconds.
-  path: Assets/SCRIPT
-  artifactKey: Guid(aac871777ac799f4c8c0e7933b962797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SCRIPT using Guid(aac871777ac799f4c8c0e7933b962797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01027cb2b2e6a66be3779e870fada134') in 0.007162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.565444 seconds.
-  path: Assets/SPRITE
-  artifactKey: Guid(4d0c74405c9bb7f4491476dde539ad3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SPRITE using Guid(4d0c74405c9bb7f4491476dde539ad3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eec3c6adb662a5a43d20e08335f1e66') in 0.006424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.063776 seconds.
-  path: Assets/Dungeon Knight
-  artifactKey: Guid(b00048c2ba4a7a24f8c9cc7dcfa5650a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight using Guid(b00048c2ba4a7a24f8c9cc7dcfa5650a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca123a6e12f63b93a38fe70e4e8f09f5') in 0.006184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.950866 seconds.
-  path: Assets/Dungeon Knight/items
-  artifactKey: Guid(31d0b8639503450469bf1d0f49919366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon Knight/items using Guid(31d0b8639503450469bf1d0f49919366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2cba15b9e04ed641e1656fb04c2cdd') in 0.007032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.909542 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(f644e2a9f8285534a8c21fe202b381f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(f644e2a9f8285534a8c21fe202b381f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f17a86c832dd558cb596e5cc68006e') in 0.006117 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.005231 seconds.
